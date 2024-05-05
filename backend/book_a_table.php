@@ -8,20 +8,21 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         exit("Validation failed");
     }
 
-    $company = $_POST['company'];
+    $company = $_POST['Company'];
     $contact_name = $_POST['name'];
     $email = $_POST['email'];
     $date = $_POST['date'];
     $time = $_POST['time'];
-    $text= $_POST['count'];
+    $count = $_POST['count'];
+    $text= $_POST['text'];
     
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
     }
 
-    $sql = "INSERT INTO your_table_name (name, email, date, time) VALUES (?, ?, ?, ?)";
+    $sql = "INSERT INTO your_table_name (company, name, email, date, time, count, text) VALUES (?, ?, ?, ?, ?, ?, ?)";
     $stmt = $conn->prepare($sql);
-    $stmt->bind_param("ssss", $name, $email, $date, $time);
+    $stmt->bind_param("sssssss", $company, $contact_name, $email, $date, $time, $count, $text);
 
     if ($stmt->execute()) {
         http_response_code(200);
