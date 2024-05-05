@@ -81,24 +81,23 @@ nav a:hover {
 }
 
 .cartbutton {
-    background-color: white; /* Green background */
-    border: none; /* No border */
-    color: black; /* White text */
-    padding: 10px 20px; /* Padding (top/bottom: 15px, left/right: 32px) */
-    text-align: center; /* Center text */
-    text-decoration: none; /* No underline */
+    background-color: white; 
+    border: none; 
+    color: black; 
+    padding: 10px 20px;
+    text-align: center; 
+    text-decoration: none; 
     font-weight: bold;
-    display: inline-block; /* Display as inline block */
-    font-size: 16px; /* Font size */
-    margin: 4px 2px; /* Margin (top/bottom: 4px, left/right: 2px) */
-    cursor: pointer; /* Cursor pointer on hover */
-    border-radius: 0px; /* Rounded corners */
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 0px; 
     transition: background-color 0.4s ease;
 }
 
-/* Change button color on hover */
 .cartbutton:hover {
-    background-color:rgb(202, 110, 5); /* Darker green background */
+    background-color:rgb(202, 110, 5); 
     color: white;
     font-weight: bold;
     
