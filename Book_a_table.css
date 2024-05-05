@@ -215,7 +215,7 @@ footer a {
 }
 .footlogo img{
   position: absolute;
-  left: 46%;
+  left: 45%;
   width:90px;
 }
 @media screen and (max-width: 1050px) {
