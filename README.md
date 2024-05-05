@@ -2,4 +2,10 @@
 
 **B22-S2-IN1621 - Web Technologies (IT and AI) Module**
 
-This repository contains materials and resources for the B22-S2-IN1621 Web Technologies (IT and AI) module, focusing on creating websites. Dive into web development fundamentals, explore the intersection of technology and artificial intelligence, and harness the power of modern tools and techniques to craft engaging and dynamic web experiences. Whether you're a beginner or seasoned developer, this module provides a comprehensive journey through the landscape of web development, equipping you with the skills and knowledge to bring your ideas to life on the web.
+Welcome to the B22-S2-IN1621 Web Technologies module repository! Here, you'll find materials to dive into web development and create captivating websites, including a coffee shop-themed project. Explore HTML, CSS, and JavaScript to craft dynamic web experiences, enhanced with Bootstrap for seamless design implementation. From navigation bars to form handling, this module covers essential topics to equip you with the skills needed to bring your coffee shop website to life. Join us on this journey through the world of web technologies and unleash your creativity!
+
+Gamage G.G.P.T
+KUMARI.J.K.A.V
+Kahanda M.C.
+GUNAWARDANA T.U.D
+Nimhan R.D.S
