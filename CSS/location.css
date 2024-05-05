@@ -98,7 +98,7 @@ iframe{
 }
 
 #part1 {
-    background-image: url(images/location1.jpg);
+    background-image: url(../Resource/Img/location1.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -155,7 +155,7 @@ iframe{
     border: 3px solid black;
 }
 #part4 {
-    background-image: url(images/location2.jpg);
+    background-image: url(../Resource/Img/location2.jpg);
     background-size: cover;
     background-position: center;
 }
