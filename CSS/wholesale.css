@@ -227,3 +227,11 @@ footer a {
     display: none;
   }
 }
+@media screen and (max-width: 850px) {
+  .carousel-item{
+    height: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+  }
+}
