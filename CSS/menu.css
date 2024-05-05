@@ -75,7 +75,7 @@ nav a:hover {
     padding-top: 7%;
     padding-bottom: 10%;
     background-color: black;
-    background-image: url(../Resource/Img/menubackground.jpg);
+    background-image: url(images/menubackground.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -187,8 +187,33 @@ footer a {
     left: 44%;
     width:90px;
 }
+
+@media screen and (max-width: 1500px) {
+    #extra{
+        color: rgb(194, 144, 51);
+        padding: 1%;
+        position: absolute;
+        width: 15%;
+        border: none;
+    }
+    #sidetable{
+        border: none;
+    }
+}
 @media screen and (max-width: 1050px) {
     #logo {
         display: none;
+    }
+}
+@media screen and (max-width: 700px) {
+    #extra{
+        color: rgb(194, 144, 51);
+        padding: 1%;
+        position: absolute;
+        width: 15%;
+        border: none;
+    }
+    #sidetable{
+        border: none;
     }
 }
