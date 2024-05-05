@@ -72,13 +72,18 @@ nav a:hover {
     background-color:#161010;
     margin: 0 auto;
   }
-  .carousel-item{
+  
+.carousel-item{
     height: 100vh;
     overflow: hidden;
     background-size: cover;
     background-position: center;
   }
- 
+
+#prev_btn , #next_btn{
+      z-index: 0;
+  } 
+  
 /*form styling*/
 
 .black-section {
@@ -86,9 +91,7 @@ nav a:hover {
   color: white;
   padding: 20px;
 }
-#prev_btn , #next_btn{
-  z-index: 0;
-}
+
 .wholesale-partner {
   background-color: #161010;
   padding: 20px;
