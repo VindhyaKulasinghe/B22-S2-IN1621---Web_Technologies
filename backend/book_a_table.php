@@ -20,7 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         die("Connection failed: " . $conn->connect_error);
     }
 
-    $sql = "INSERT INTO your_table_name (company, name, email, date, time, count, text) VALUES (?, ?, ?, ?, ?, ?, ?)";
+    $sql = "INSERT INTO TABLE (company, name, email, date, time, count, text) VALUES (?, ?, ?, ?, ?, ?, ?)";
     $stmt = $conn->prepare($sql);
     $stmt->bind_param("sssssss", $company, $contact_name, $email, $date, $time, $count, $text);
 
