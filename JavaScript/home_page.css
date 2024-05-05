@@ -1,5 +1,5 @@
 header {
-    background-image: url(images/navbackground.jpg);
+    background-image: url(../Resource/Img/navbackground.jpg);
     background-size: cover;
     height: 100vh;
 }
@@ -195,17 +195,17 @@ nav a:hover {
 }
 
 #img1 {
-    background-image: url(images/visitus.png);
+    background-image: url(../Resource/icon/visitus.png);
     background-position: center;
 }
 
 #img2 {
-    background-image: url(images/ourproduct.png);
+    background-image: url(../Resource/icon/ourproduct.png);
     background-position: center;
 }
 
 #img3 {
-    background-image: url(images/menu.png);
+    background-image: url(../Resource/icon/menu.png);
     background-position: center;
 }
 
@@ -257,17 +257,17 @@ nav a:hover {
 }
 
 #img4 {
-    background-image: url(images/product1.png);
+    background-image: url(../Resource/icon/product1.png);
     background-position: center;
 }
 
 #img5 {
-    background-image: url(images/product2.png);
+    background-image: url(../Resource/icon/product2.png);
     background-position: center;
 }
 
 #img6 {
-    background-image: url(images/product3.png);
+    background-image: url(../Resource/icon/product3.png);
     background-position: center;
 }
 
@@ -282,7 +282,7 @@ nav a:hover {
 }
 
 #section3part1 {
-    background-image: url(images/homepagelocation.png);
+    background-image: url(../Resource/icon/homepagelocation.png);
     height: 100vh;
     width: 50%;
     background-size: cover;
