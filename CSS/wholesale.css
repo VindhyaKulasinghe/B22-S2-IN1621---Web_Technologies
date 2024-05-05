@@ -68,7 +68,12 @@ nav a:hover {
 }
 
 /*corosoel styling*/
+#centeredImage {
+  padding-top: 10%;
+}
+
 #centeredImage div{
+    margin-top: 10%;
     background-color:#161010;
     margin: 0 auto;
   }
